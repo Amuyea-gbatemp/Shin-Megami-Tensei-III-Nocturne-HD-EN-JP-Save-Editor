@@ -1,6 +1,6 @@
 # Shin Megami Tensei III Nocturne HD EN JP Save Editor
 Shin Megami Tensei III Nocturne HD EN &amp; JP Save Editor with Python
-Gbatemp Thread link: https://gbatemp.net/threads/persona-5-strikers-scramble-save-editor.587167/
+Gbatemp Thread link: https://gbatemp.net/threads/shin-megami-tensei-iii-nocturne-hd-remaster-save-editor.591669/
 
 Works with Save Slot 1 to 20
 
