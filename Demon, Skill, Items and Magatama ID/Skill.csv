@@ -1,0 +1,305 @@
+Skill Name,Skill Type,Hexadecimal,Decimal
+Agi,Fire ,1,1
+Agilao,Fire ,2,2
+Agidyne,Fire ,3,3
+Maragi,Fire ,4,4
+Maragion,Fire ,5,5
+Maragidyne,Fire ,6,6
+Bufu,Ice ,7,7
+Bufula,Ice ,8,8
+Bufudyne,Ice ,9,9
+Mabufu,Ice ,A,10
+Mabufula,Ice ,B,11
+Mabufudyne,Ice ,C,12
+Zio,Elec ,D,13
+Zionga,Elec ,E,14
+Ziodyn,Elec ,F,15
+MaZio,Elec ,10,16
+MaZionga,Elec ,11,17
+MaZiodyne,Elec ,12,18
+Zan,Force ,13,19
+Zanma,Force ,14,20
+Zandyne,Force ,15,21
+Mazan,Force ,16,22
+Mazanma,Force ,17,23
+Mazandyne,Force ,18,24
+Megido,Almighty ,19,25
+Megidola,Almighty ,1A,26
+Megidolaon,Almighty ,1B,27
+Hama,Expel ,1C,28
+Hamaon,Expel ,1D,29
+Mahama,Expel ,1E,30
+Mahamaon,Expel ,1F,31
+Mudo,Death ,20,32
+Mudoon,Death ,21,33
+Mamudo,Death ,22,34
+Mamudoon,Death ,23,35
+Dia,Healing ,24,36
+Diarama,Healing ,25,37
+Diarahan,Healing ,26,38
+Media,Healing ,27,39
+Mediarama,Healing ,28,40
+Mediarahan,Healing ,29,41
+Makatora,Support ,2A,42
+Patra,Healing ,2B,43
+Mepatra,Healing ,2C,44
+Mutudi,Healing ,2D,45
+Posumudi,Healing ,2E,46
+Paraladi,Healing ,2F,47
+Petradi,Healing ,30,48
+Recarm,Healing ,31,49
+Samrecarm,Healing ,32,50
+Recarmdra,Healing ,33,51
+Tarunda,Support ,34,52
+Sukunda,Support ,35,53
+Rakunda,Support ,36,54
+Makakajam,Curse ,37,55
+Makajamon,Curse ,38,56
+Dekaja,Support ,39,57
+Shibaboo,Nerve ,3B,59
+Dormina,Mind ,3C,60
+Pulinpa,Mind ,3D,61
+Marin Karin,Mind ,3E,62
+Tentarafoo,Mind ,3F,63
+Tarukaja,Support ,40,64
+Sukukaja,Support ,41,65
+Rakukaja,Support ,42,66
+Makakaja,Support ,43,67
+Tetraja,Support ,44,68
+Makarakarn,Support ,45,69
+Tetrakarn,Support ,46,70
+Analyze,Special ,47,71
+Trafuri,Special ,48,72
+Estoma,Special ,49,73
+Riberama,Special ,4A,74
+Liftoma,Special ,4B,75
+Lightoma,Special ,4C,76
+Dekunda,Support ,4D,77
+Pestilence,Almighty ,4F,79
+Lunge,Physical ,60,96
+Hell thrust,Physical ,61,97
+Berserk,Physical ,62,98
+Tempest,Physical ,63,99
+Hades Blast,Physical ,64,100
+Heat Wave,Physical ,65,101
+Blight,Physical ,66,102
+Brutal Slash,Physical ,67,103
+Hassohappa,Physical ,68,104
+Dark sword,Physical ,69,105
+Stasis Blade,Physical ,6A,106
+Mighty Gust,Physical ,6B,107
+Death bound,Physical ,6C,108
+Guillotine,Physical ,6D,109
+Chaos Blade,Physical ,6E,110
+Needle Rush,Physical ,6F,111
+Stun Needle,Physical ,70,112
+Toxic Sting,Physical ,71,113
+Arid Needle,Physical ,72,114
+Sacrifice,Explode ,73,115
+Kamikaze,Explode ,74,116
+Feral Bite,Physical ,75,117
+Venom Bite,Physical ,76,118
+Charm Bite,Physical ,77,119
+Stone bite,Physical ,78,120
+Stun Bite,Physical ,79,121
+Hell fang,Physical ,7A,122
+Feral Claw,Physical ,7B,123
+Venom Claw,Physical ,7C,124
+Stun Claw,Physical ,7D,125
+Iron Claw,Physical ,7E,126
+Godly Light,Expel ,7F,127
+Deadly Fury,Physical ,83,131
+Xeros-Beat,Physical ,85,133
+Divine Shot,Physical ,88,136
+Javelin Rain,Physical ,8F,143
+Oni-Kagura,Physical ,90,144
+Freikugel,Almighty ,93,147
+Last Resort,Explode ,98,152
+Foul Havoc,Rage,99,153
+Earthquake,Physical ,9B,155
+Holy Melody,Special ,9E,158
+Evil Melody,Special ,9F,159
+Spiral Viper,Physical ,A0,160
+Magma axis,Fire ,A1,161
+Gaea,Rage,A3,163
+Tentacle,Rage,A8,168
+Fire breath,Fire ,B0,176
+Hellfire,Fire ,B1,177
+Prominence,Fire ,B2,178
+Ragnarok,Fire ,B3,179
+Ice breath,Ice ,B4,180
+Glacial Blast,Ice ,B5,181
+Shock,Elec ,B6,182
+Bolt Storm,Elec ,B7,183
+Wing Buffet,Force ,B8,184
+Tornado,Force ,B9,185
+Wind Cutter,Force ,BA,186
+Wet Wind,Force ,BB,187
+Thunder clap,Expel ,BC,188
+Holy Wrath,Expel ,BD,189
+Deathtouch,Almighty ,BE,190
+Mana Drain,Almighty ,BF,191
+Life Drain,Almighty ,C0,192
+Violet Flash,Expel ,C1,193
+Starlight,Expel ,C2,194
+Radiance,Expel ,C3,195
+Hell Gaze,Death ,C4,196
+Stone Gaze,Death ,C5,197
+Mute Gaze,Curse ,C6,198
+Evil Gaze,Death ,C7,199
+Bael's Bane,Curse ,C9,201
+Toxic Cloud,Curse ,CA,202
+War cry,Support ,CB,203
+Fog breath,Support ,CC,204
+Taunt,Support ,CD,205
+Debilitate,Support ,CE,206
+Dismal Tune,Curse ,CF,207
+Sol Niger,Almighty ,D0,208
+Stun Gaze,Nerve ,D1,209
+Lullaby,Mind ,D2,210
+Binding Cry,Nerve ,D3,211
+Eternal Rest,Mind ,D4,212
+Sonic Wave,Mind ,D5,213
+Sexy Gaze,Mind ,D6,214
+Allure,Mind ,D7,215
+Panic voice,Mind ,D8,216
+Intoxicate,Mind ,D9,217
+Prayer,Healing ,DA,218
+Beast Eye,Support ,DB,219
+Dragon Eye,Support ,DC,220
+Infinite Light,Almighty ,DD,221
+Beckon Call,Special ,DF,223
+Focus,Special ,E0,224
+Retreat,Special ,E1,225
+Gathering,Special ,E2,226
+Dark Howl,Special ,E3,227
+Laughter,Special ,E5,229
+Divine Will,Special ,E6,230
+Foul Union,Special ,E8,232
+Replicate,Special ,E9,233
+Aurora,Special ,EA,234
+Fire of Sinai,Almighty ,EB,235
+Conjutation,Special ,EC,236
+Vast Light,Almighty ,F1,241
+God's Curse,Almighty ,F2,242
+Hells Call,Almighty ,F3,243
+Icy Death,Ice ,F4,244
+Mirage,Rage,F5,245
+Wild Dance,Mind ,F9,249
+Domination,Special ,100,256
+Death Flies,Almighty ,104,260
+Soul Divide,Curse ,105,261
+E&I,Physical ,106,262
+Rebellion,Physical ,107,263
+Bullet-Time,Physical ,108,264
+Provoke,Support ,109,265
+Stinger,Almighty ,10A,266
+Round trip,Elec ,10B,267
+WhirlWind,Force ,10C,268
+Showtime,Almighty ,10D,269
+Evil Gleam,Mind ,10F,271
+Root of Evil,Almighty ,110,272
+High King,Almighty ,111,273
+Holy Star,Support ,112,274
+Andalucia,Physical ,113,275
+Red Capote,Support ,114,276
+Startle,Support ,115,277
+Preach,Mind ,116,278
+Meditation,Almighty ,117,279
+Terror Blade,Physical ,118,280
+Hell Spin,Physical ,119,281
+Hell Exhaust,Force ,11A,282
+Hell Burner,Fire ,11B,283
+Hell Throttle,Support ,11C,284
+Death Lust,Mind ,11D,285
+Beast Roar,Almighty ,11E,286
+GodÕs Bow,Expel ,11F,287
+Life Bonus,Special ,122,290
+Life Gain,Special ,123,291
+Life Surge,Special ,124,292
+Mana Bonus,Special ,125,293
+Mana Gain,Special ,126,294
+Mana Surge,Special ,127,295
+Fast Retreat,Special ,128,296
+Mind's Eye,Special ,12A,298
+Might,Special ,12B,299
+Bright Might,Special ,12C,300
+Dark Might,Special ,12D,301
+Drain Attack,Special ,12E,302
+Attack All,Special ,130,304
+Counter,Special ,131,305
+Retaliate,Special ,132,306
+Avenge,Special ,133,307
+Fire Boost,Fire ,135,309
+Ice Boost,Ice ,136,310
+Elec Boost,Elec ,137,311
+Force Boost,Force ,138,312
+Anti phys,Rage,139,313
+Anti Fire,Fire ,13A,314
+Anti Ice,Ice ,13B,315
+Anti Elec,Elec ,13C,316
+Anti Force,Force ,13D,317
+Anti Expel,Expel ,13E,318
+Anti Death,Death ,13F,319
+Anti Curse,Curse ,140,320
+Anti nerve,Nerve ,141,321
+Anti mind,Mind ,142,322
+Void Phys,Rage,143,323
+Void Fire,Fire ,144,324
+Void Ice,Ice ,145,325
+Void Elec,Elec ,146,326
+Void Force,Force ,147,327
+Void Expel,Expel ,148,328
+Void Death,Death ,149,329
+Void Curse,Curse ,14A,330
+Void Nerve,Nerve ,14B,331
+Void Mind,Mind ,14C,332
+Phys Drain,Rage,14D,333
+Fire Drain,Fire ,14E,334
+Ice Drain,Ice ,14F,335
+Elec Drain,Elec ,150,336
+Force Drain,Force ,151,337
+Phys Repel,Rage,152,338
+Fire Repel,Fire ,153,339
+Ice Repel,Ice ,154,340
+Elec Repel,Elec ,155,341
+Force Repel,Force ,156,342
+Endure,Special ,159,345
+Life Aid,Healing ,15A,346
+Mana Aid,Healing ,15B,347
+Victory Cry,Healing ,15C,348
+Life Refill,Healing ,15D,349
+Mana Refill,Healing ,15E,350
+Lucky Find,Special ,161,353
+Watchful,Special ,162,354
+Charisma,Conversation   Support,163,355
+Pierce,Special ,165,357
+Never Yield,Special ,168,360
+Son's Oath,Special ,169,361
+Scout,Conversation  - Recruit,181,385
+Kidnap,Conversation  - Recruit,182,386
+Seduce,Conversation  - Recruit,183,387
+Brainwash,Conversation  - Recruit,184,388
+Dark Pledge,Conversation  - Recruit,186,390
+Wooing,Conversation  - Recruit,187,391
+Beseech,Conversation  - Recruit,188,392
+Soul Recruit,Conversation  - Recruit,189,393
+Mischief,Conversation  - Recruit,18A,394
+Death Pact,Conversation  - Recruit,18B,395
+Pester,Conversation   Request Items & Money,18C,396
+Begging,Conversation   Request Items & Money,18D,397
+Threaten,Conversation   Request Items & Money,18E,398
+Stone hunt,Conversation   Request Items & Money,18F,399
+Trade,Conversation   Request Items & Money,190,400
+Loan,Conversation   Request Items & Money,191,401
+Haggle,Conversation   Support,199,409
+Arbitration,Conversation   Support,19A,410
+Detain,Conversation   Support,19B,411
+Connection,Conversation   Support,19C,412
+Persuade,Conversation   Support,19D,413
+Intimidate,Conversation   Support,19E,414
+Nag,Conversation   Support,19F,415
+Maiden Plea,Conversation   Support,1A2,418
+Wine Party,Conversation   Support,1A3,419
+Flatter,Conversation   Support,1A4,420
+Jive talk,Conversation  - Recruit,1A5,421
