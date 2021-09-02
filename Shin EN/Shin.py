@@ -191,6 +191,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_1"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab1)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_1"))
+
         btn_items = QPushButton('Items', tab1)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -244,6 +249,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_2"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab2)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_2"))
 
         btn_items = QPushButton('Items', tab2)
         btn_items.setToolTip('Items')
@@ -299,6 +309,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_3"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab3)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_3"))
+
         btn_items = QPushButton('Items', tab3)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -352,6 +367,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_4"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab4)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_4"))
 
         btn_items = QPushButton('Items', tab4)
         btn_items.setToolTip('Items')
@@ -407,6 +427,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_5"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab5)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_5"))
+
         btn_items = QPushButton('Items', tab5)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -460,6 +485,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_6"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab6)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_6"))
 
         btn_items = QPushButton('Items', tab6)
         btn_items.setToolTip('Items')
@@ -515,6 +545,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_7"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab7)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_7"))
+
         btn_items = QPushButton('Items', tab7)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -568,6 +603,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_8"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab8)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_8"))
 
         btn_items = QPushButton('Items', tab8)
         btn_items.setToolTip('Items')
@@ -623,6 +663,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_9"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab9)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_9"))
+
         btn_items = QPushButton('Items', tab9)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -676,6 +721,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_10"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab10)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_10"))
 
         btn_items = QPushButton('Items', tab10)
         btn_items.setToolTip('Items')
@@ -731,6 +781,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_11"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab11)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_11"))
+
         btn_items = QPushButton('Items', tab11)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -784,6 +839,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_12"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab12)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_12"))
 
         btn_items = QPushButton('Items', tab12)
         btn_items.setToolTip('Items')
@@ -839,6 +899,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_13"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab13)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_13"))
+
         btn_items = QPushButton('Items', tab13)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -892,6 +957,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_14"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab14)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_14"))
 
         btn_items = QPushButton('Items', tab14)
         btn_items.setToolTip('Items')
@@ -947,6 +1017,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_15"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab15)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_15"))
+
         btn_items = QPushButton('Items', tab15)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -1000,6 +1075,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_16"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab16)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_16"))
 
         btn_items = QPushButton('Items', tab16)
         btn_items.setToolTip('Items')
@@ -1055,6 +1135,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_17"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab17)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_17"))
+
         btn_items = QPushButton('Items', tab17)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -1108,6 +1193,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_18"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab18)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_18"))
 
         btn_items = QPushButton('Items', tab18)
         btn_items.setToolTip('Items')
@@ -1163,6 +1253,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_19"))
 
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab19)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_19"))
+
         btn_items = QPushButton('Items', tab19)
         btn_items.setToolTip('Items')
         btn_items.move(35, 150)
@@ -1216,6 +1311,11 @@ class ShinApp(QMainWindow):
         btn_herodemonskill.setToolTip('Hero & Demon Skills 1 to 8')
         btn_herodemonskill.move(350, 90)
         btn_herodemonskill.clicked.connect(lambda: self.show_statwindow("HeroDemonSkills_20"))
+
+        btn_herodemonskillamt = QPushButton('Skill Amount', tab20)
+        btn_herodemonskillamt.setToolTip('Hero & Demon Skills Amount')
+        btn_herodemonskillamt.move(490, 90)
+        btn_herodemonskillamt.clicked.connect(lambda: self.show_statwindow("HeroDemonSkillsAmt_20"))
 
         btn_items = QPushButton('Items', tab20)
         btn_items.setToolTip('Items')
@@ -1395,6 +1495,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_1_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_1"):
+                statNames = herodemonamountList
+                statOffsets = save_1_skillamountOffsets
+
             elif (category == "Items_1"):
                 statNames = itemList
                 statOffsets = save_1_itemsListOffsets
@@ -1438,6 +1542,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_2"):
                 statNames = herodemonskillList
                 statOffsets = save_2_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_2"):
+                statNames = herodemonamountList
+                statOffsets = save_2_skillamountOffsets
 
             elif (category == "Items_2"):
                 statNames = itemList
@@ -1483,6 +1591,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_3_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_3"):
+                statNames = herodemonamountList
+                statOffsets = save_3_skillamountOffsets
+
             elif (category == "Items_3"):
                 statNames = itemList
                 statOffsets = save_3_itemsListOffsets
@@ -1526,6 +1638,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_4"):
                 statNames = herodemonskillList
                 statOffsets = save_4_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_4"):
+                statNames = herodemonamountList
+                statOffsets = save_4_skillamountOffsets
 
             elif (category == "Items_4"):
                 statNames = itemList
@@ -1571,6 +1687,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_5_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_5"):
+                statNames = herodemonamountList
+                statOffsets = save_5_skillamountOffsets
+
             elif (category == "Items_5"):
                 statNames = itemList
                 statOffsets = save_5_itemsListOffsets
@@ -1614,6 +1734,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_6"):
                 statNames = herodemonskillList
                 statOffsets = save_6_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_6"):
+                statNames = herodemonamountList
+                statOffsets = save_6_skillamountOffsets
 
             elif (category == "Items_6"):
                 statNames = itemList
@@ -1659,6 +1783,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_7_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_7"):
+                statNames = herodemonamountList
+                statOffsets = save_7_skillamountOffsets
+
             elif (category == "Items_7"):
                 statNames = itemList
                 statOffsets = save_7_itemsListOffsets
@@ -1702,6 +1830,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_8"):
                 statNames = herodemonskillList
                 statOffsets = save_8_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_8"):
+                statNames = herodemonamountList
+                statOffsets = save_8_skillamountOffsets
 
             elif (category == "Items_8"):
                 statNames = itemList
@@ -1747,6 +1879,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_9_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_9"):
+                statNames = herodemonamountList
+                statOffsets = save_9_skillamountOffsets
+
             elif (category == "Items_9"):
                 statNames = itemList
                 statOffsets = save_9_itemsListOffsets
@@ -1790,6 +1926,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_10"):
                 statNames = herodemonskillList
                 statOffsets = save_10_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_10"):
+                statNames = herodemonamountList
+                statOffsets = save_10_skillamountOffsets
 
             elif (category == "Items_10"):
                 statNames = itemList
@@ -1835,6 +1975,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_11_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_11"):
+                statNames = herodemonamountList
+                statOffsets = save_11_skillamountOffsets
+
             elif (category == "Items_11"):
                 statNames = itemList
                 statOffsets = save_11_itemsListOffsets
@@ -1878,6 +2022,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_12"):
                 statNames = herodemonskillList
                 statOffsets = save_12_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_12"):
+                statNames = herodemonamountList
+                statOffsets = save_12_skillamountOffsets
 
             elif (category == "Items_12"):
                 statNames = itemList
@@ -1923,6 +2071,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_13_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_13"):
+                statNames = herodemonamountList
+                statOffsets = save_13_skillamountOffsets
+
             elif (category == "Items_13"):
                 statNames = itemList
                 statOffsets = save_13_itemsListOffsets
@@ -1966,6 +2118,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_14"):
                 statNames = herodemonskillList
                 statOffsets = save_14_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_14"):
+                statNames = herodemonamountList
+                statOffsets = save_14_skillamountOffsets
 
             elif (category == "Items_14"):
                 statNames = itemList
@@ -2011,6 +2167,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_15_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_15"):
+                statNames = herodemonamountList
+                statOffsets = save_15_skillamountOffsets
+
             elif (category == "Items_15"):
                 statNames = itemList
                 statOffsets = save_15_itemsListOffsets
@@ -2054,6 +2214,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_16"):
                 statNames = herodemonskillList
                 statOffsets = save_16_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_16"):
+                statNames = herodemonamountList
+                statOffsets = save_16_skillamountOffsets
 
             elif (category == "Items_16"):
                 statNames = itemList
@@ -2099,6 +2263,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_17_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_17"):
+                statNames = herodemonamountList
+                statOffsets = save_17_skillamountOffsets
+
             elif (category == "Items_17"):
                 statNames = itemList
                 statOffsets = save_17_itemsListOffsets
@@ -2142,6 +2310,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_18"):
                 statNames = herodemonskillList
                 statOffsets = save_18_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_18"):
+                statNames = herodemonamountList
+                statOffsets = save_18_skillamountOffsets
 
             elif (category == "Items_18"):
                 statNames = itemList
@@ -2187,6 +2359,10 @@ class ShinApp(QMainWindow):
                 statNames = herodemonskillList
                 statOffsets = save_19_dskillListOffsets
 
+            elif (category == "HeroDemonSkillsAmt_19"):
+                statNames = herodemonamountList
+                statOffsets = save_19_skillamountOffsets
+
             elif (category == "Items_19"):
                 statNames = itemList
                 statOffsets = save_19_itemsListOffsets
@@ -2230,6 +2406,10 @@ class ShinApp(QMainWindow):
             elif (category == "HeroDemonSkills_20"):
                 statNames = herodemonskillList
                 statOffsets = save_20_dskillListOffsets
+
+            elif (category == "HeroDemonSkillsAmt_20"):
+                statNames = herodemonamountList
+                statOffsets = save_20_skillamountOffsets
 
             elif (category == "Items_20"):
                 statNames = itemList
@@ -2333,6 +2513,9 @@ class ShinApp(QMainWindow):
                 button_save.clicked.connect(writeStats)
 
             elif (category == "DemonMainStat_1" or category == "DemonMainStat_2" or category == "DemonMainStat_3" or category == "DemonMainStat_4" or category == "DemonMainStat_5" or category == "DemonMainStat_6" or category == "DemonMainStat_7" or category == "DemonMainStat_8" or category == "DemonMainStat_9" or category == "DemonMainStat_10" or category == "DemonMainStat_11" or category == "DemonMainStat_12" or category == "DemonMainStat_13" or category == "DemonMainStat_14" or category == "DemonMainStat_15" or category == "DemonMainStat_16" or category == "DemonMainStat_17" or category == "DemonMainStat_18" or category == "DemonMainStat_19" or category == "DemonMainStat_20" or category == "HeroMainStat_1" or category == "HeroMainStat_2" or category == "HeroMainStat_3" or category == "HeroMainStat_4" or category == "HeroMainStat_5" or category == "HeroMainStat_6" or category == "HeroMainStat_7" or category == "HeroMainStat_8" or category == "HeroMainStat_9" or category == "HeroMainStat_10" or category == "HeroMainStat_11" or category == "HeroMainStat_12" or category == "HeroMainStat_13" or category == "HeroMainStat_14" or category == "HeroMainStat_15" or category == "HeroMainStat_16" or category == "HeroMainStat_17" or category == "HeroMainStat_18" or category == "HeroMainStat_19" or category == "HeroMainStat_20" or category == "Magatamas_1" or category == "Magatamas_2" or category == "Magatamas_3" or category == "Magatamas_4" or category == "Magatamas_5" or category == "Magatamas_6" or category == "Magatamas_7" or category == "Magatamas_8" or category == "Magatamas_9" or category == "Magatamas_10" or category == "Magatamas_11" or category == "Magatamas_12" or category == "Magatamas_13" or category == "Magatamas_14" or category == "Magatamas_15" or category == "Magatamas_16" or category == "Magatamas_17" or category == "Magatamas_18" or category == "Magatamas_19" or category == "Magatamas_20" or category == "Items_1" or category == "Items_2" or category == "Items_3" or category == "Items_4" or category == "Items_5" or category == "Items_6" or category == "Items_7" or category == "Items_8" or category == "Items_9" or category == "Items_10" or category == "Items_11" or category == "Items_12" or category == "Items_13" or category == "Items_14" or category == "Items_15" or category == "Items_16" or category == "Items_17" or category == "Items_18" or category == "Items_19" or category == "Items_20" or category == "HeroSubStat_1" or category == "HeroSubStat_2" or category == "HeroSubStat_3" or category == "HeroSubStat_4" or category == "HeroSubStat_5" or category == "HeroSubStat_6" or category == "HeroSubStat_7" or category == "HeroSubStat_8" or category == "HeroSubStat_9" or category == "HeroSubStat_10" or category == "HeroSubStat_11" or category == "HeroSubStat_12" or category == "HeroSubStat_13" or category == "HeroSubStat_14" or category == "HeroSubStat_15" or category == "HeroSubStat_16" or category == "HeroSubStat_17" or category == "HeroSubStat_18" or category == "HeroSubStat_19" or category == "HeroSubStat_20" or category == "DemonSubStat_1" or category == "DemonSubStat_2" or category == "DemonSubStat_3" or category == "DemonSubStat_4" or category == "DemonSubStat_5" or category == "DemonSubStat_6" or category == "DemonSubStat_7" or category == "DemonSubStat_8" or category == "DemonSubStat_9" or category == "DemonSubStat_10" or category == "DemonSubStat_11" or category == "DemonSubStat_12" or category == "DemonSubStat_13" or category == "DemonSubStat_14" or category == "DemonSubStat_15" or category == "DemonSubStat_16" or category == "DemonSubStat_17" or category == "DemonSubStat_18" or category == "DemonSubStat_19" or category == "DemonSubStat_20" or category == "Items_1" or category == "Items_2" or category == "Items_3" or category == "Items_4" or category == "Items_5" or category == "Items_6" or category == "Items_7" or category == "Items_8" or category == "Items_9" or category == "Items_10" or category == "Items_11" or category == "Items_12" or category == "Items_13" or category == "Items_14" or category == "Items_15" or category == "Items_16" or category == "Items_17" or category == "Items_18" or category == "Items_19" or category == "Items_20" or category == "HeroDemonLevel_1" or category == "HeroDemonLevel_2" or category == "HeroDemonLevel_3" or category == "HeroDemonLevel_4" or category == "HeroDemonLevel_5" or category == "HeroDemonLevel_6" or category == "HeroDemonLevel_7" or category == "HeroDemonLevel_8" or category == "HeroDemonLevel_9" or category == "HeroDemonLevel_10" or category == "HeroDemonLevel_11" or category == "HeroDemonLevel_12" or category == "HeroDemonLevel_13" or category == "HeroDemonLevel_14" or category == "HeroDemonLevel_15" or category == "HeroDemonLevel_16" or category == "HeroDemonLevel_17" or category == "HeroDemonLevel_18" or category == "HeroDemonLevel_19" or category == "HeroDemonLevel_20"):
+                button_save.clicked.connect(writeStats)
+
+            elif (category == "HeroDemonSkills_1" or category == "HeroDemonSkills_2" or category == "HeroDemonSkills_3" or category == "HeroDemonSkills_4" or category == "HeroDemonSkills_5" or category == "HeroDemonSkills_6" or category == "HeroDemonSkills_7" or category == "HeroDemonSkills_8" or category == "HeroDemonSkills_9" or category == "HeroDemonSkills_10" or category == "HeroDemonSkills_11" or category == "HeroDemonSkills_12" or category == "HeroDemonSkills_13" or category == "HeroDemonSkills_14" or category == "HeroDemonSkills_15" or category == "HeroDemonSkills_16" or category == "HeroDemonSkills_17" or category == "HeroDemonSkills_18" or category == "HeroDemonSkills_19" or category == "HeroDemonSkills_20"):
                 button_save.clicked.connect(writeStats)
 
             else:
