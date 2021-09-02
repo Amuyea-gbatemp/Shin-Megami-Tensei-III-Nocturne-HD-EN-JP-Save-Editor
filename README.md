@@ -11,7 +11,7 @@ Features
 * Demon Stats (HP, Max HP, MP, Max MP, Str, Mag, Vit, Agi, Luc)
 * Hero & Demon Level
 * Hero & Demon EXP 
-* Hero & Demon Skills
+* Hero & Demon Skills (Give Skills and Skill Amounts)
 * Items
 * Magatama
 
