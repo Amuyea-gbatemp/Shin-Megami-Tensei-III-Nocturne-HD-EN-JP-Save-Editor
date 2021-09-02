@@ -34,7 +34,7 @@ class ShinApp(QMainWindow):
         self.setWindowTitle(self.title)
 
         #########################################
-        #				MENUBAR					#
+        #               MENUBAR                 #
         #########################################
 
         menubar = self.menuBar()
@@ -72,7 +72,7 @@ class ShinApp(QMainWindow):
         helpMenu.addAction(helpMenu_about)
 
         #########################################
-        #				TOOLBAR					#
+        #               TOOLBAR                 #
         #########################################
 
         toolbar = self.addToolBar("File")
@@ -88,7 +88,7 @@ class ShinApp(QMainWindow):
         toolbar.addAction(toolbar_savefile)
 
         #########################################
-        #				TABS					#
+        #               TABS                    #
         #########################################
 
         centralWidget = QWidget(self)
@@ -2443,6 +2443,14 @@ class ShinApp(QMainWindow):
                     self.tableWidget.setItem(x, 1, QTableWidgetItem(
                         str(self.readFromPositionbyte(statOffsets[x], statOffsets[x] + 1, "<L"))))
 
+
+            elif (category == "HeroDemonSkillsAmt_1" or category == "HeroDemonSkillsAmt_2" or category == "HeroDemonSkillsAmt_3" or category == "HeroDemonSkillsAmt_4" or category == "HeroDemonSkillsAmt_5" or category == "HeroDemonSkillsAmt_6" or category == "HeroDemonSkillsAmt_7" or category == "HeroDemonSkillsAmt_8" or category == "HeroDemonSkillsAmt_9" or category == "HeroDemonSkillsAmt_10" or category == "HeroDemonSkillsAmt_11" or category == "HeroDemonSkillsAmt_12" or category == "HeroDemonSkillsAmt_13" or category == "HeroDemonSkillsAmt_14" or category == "HeroDemonSkillsAmt_15" or category == "HeroDemonSkillsAmt_16" or category == "HeroDemonSkillsAmt_17" or category == "HeroDemonSkillsAmt_18" or category == "HeroDemonSkillsAmt_19" or category == "HeroDemonSkillsAmt_20"):
+                self.tableWidget.setRowCount(len(statNames))
+                for x in range(len(statOffsets)):
+                    self.tableWidget.setItem(x, 0, QTableWidgetItem(statNames[x]))
+                    self.tableWidget.setItem(x, 1, QTableWidgetItem(
+                        str(self.readFromPositionbyte(statOffsets[x], statOffsets[x] + 1, "<L"))))
+
             else:
                 self.tableWidget.setRowCount(len(statNames))
                 for x in range(len(statOffsets)):
@@ -2501,6 +2509,12 @@ class ShinApp(QMainWindow):
                         for x in range(len(statOffsets)):
                             value = self.tableWidget.item(x, 1).setText(str(amount))
 
+                elif (category == "HeroDemonSkillsAmt_1" or category == "HeroDemonSkillsAmt_2" or category == "HeroDemonSkillsAmt_3" or category == "HeroDemonSkillsAmt_4" or category == "HeroDemonSkillsAmt_5" or category == "HeroDemonSkillsAmt_6" or category == "HeroDemonSkillsAmt_7" or category == "HeroDemonSkillsAmt_8" or category == "HeroDemonSkillsAmt_9" or category == "HeroDemonSkillsAmt_10" or category == "HeroDemonSkillsAmt_11" or category == "HeroDemonSkillsAmt_12" or category == "HeroDemonSkillsAmt_13" or category == "HeroDemonSkillsAmt_14" or category == "HeroDemonSkillsAmt_15" or category == "HeroDemonSkillsAmt_16" or category == "HeroDemonSkillsAmt_17" or category == "HeroDemonSkillsAmt_18" or category == "HeroDemonSkillsAmt_19" or category == "HeroDemonSkillsAmt_20"):
+                    amount, okPressed = QInputDialog.getInt(self, "Items", "Amount:", 0, 0, 0x8, 10)
+                    if okPressed:
+                        for x in range(len(statOffsets)):
+                            value = self.tableWidget.item(x, 1).setText(str(amount))
+
                 elif(category == "Items_1" or category == "Items_2" or category == "Items_3" or category == "Items_4" or category == "Items_5" or category == "Items_6" or category == "Items_7" or category == "Items_8" or category == "Items_9" or category == "Items_10" or category == "Items_11" or category == "Items_12" or category == "Items_13" or category == "Items_14" or category == "Items_15" or category == "Items_16" or category == "Items_17" or category == "Items_18" or category == "Items_19" or category == "Items_20" or category == "HeroDemonLevel_1" or category == "HeroDemonLevel_2" or category == "HeroDemonLevel_3" or category == "HeroDemonLevel_4" or category == "HeroDemonLevel_5" or category == "HeroDemonLevel_6" or category == "HeroDemonLevel_7" or category == "HeroDemonLevel_8" or category == "HeroDemonLevel_9" or category == "HeroDemonLevel_10" or category == "HeroDemonLevel_11" or category == "HeroDemonLevel_12" or category == "HeroDemonLevel_13" or category == "HeroDemonLevel_14" or category == "HeroDemonLevel_15" or category == "HeroDemonLevel_16" or category == "HeroDemonLevel_17" or category == "HeroDemonLevel_18" or category == "HeroDemonLevel_19" or category == "HeroDemonLevel_20"):
                     amount, okPressed = QInputDialog.getInt(self, "Items", "Amount:", 0, 0, 0x63, 10)
                     if okPressed:
@@ -2516,6 +2530,9 @@ class ShinApp(QMainWindow):
                 button_save.clicked.connect(writeStats)
 
             elif (category == "HeroDemonSkills_1" or category == "HeroDemonSkills_2" or category == "HeroDemonSkills_3" or category == "HeroDemonSkills_4" or category == "HeroDemonSkills_5" or category == "HeroDemonSkills_6" or category == "HeroDemonSkills_7" or category == "HeroDemonSkills_8" or category == "HeroDemonSkills_9" or category == "HeroDemonSkills_10" or category == "HeroDemonSkills_11" or category == "HeroDemonSkills_12" or category == "HeroDemonSkills_13" or category == "HeroDemonSkills_14" or category == "HeroDemonSkills_15" or category == "HeroDemonSkills_16" or category == "HeroDemonSkills_17" or category == "HeroDemonSkills_18" or category == "HeroDemonSkills_19" or category == "HeroDemonSkills_20"):
+                button_save.clicked.connect(writeStats)
+
+            elif (category == "HeroDemonSkillsAmt_1" or category == "HeroDemonSkillsAmt_2" or category == "HeroDemonSkillsAmt_3" or category == "HeroDemonSkillsAmt_4" or category == "HeroDemonSkillsAmt_5" or category == "HeroDemonSkillsAmt_6" or category == "HeroDemonSkillsAmt_7" or category == "HeroDemonSkillsAmt_8" or category == "HeroDemonSkillsAmt_9" or category == "HeroDemonSkillsAmt_10" or category == "HeroDemonSkillsAmt_11" or category == "HeroDemonSkillsAmt_12" or category == "HeroDemonSkillsAmt_13" or category == "HeroDemonSkillsAmt_14" or category == "HeroDemonSkillsAmt_15" or category == "HeroDemonSkillsAmt_16" or category == "HeroDemonSkillsAmt_17" or category == "HeroDemonSkillsAmt_18" or category == "HeroDemonSkillsAmt_19" or category == "HeroDemonSkillsAmt_20"):
                 button_save.clicked.connect(writeStats)
 
             else:
