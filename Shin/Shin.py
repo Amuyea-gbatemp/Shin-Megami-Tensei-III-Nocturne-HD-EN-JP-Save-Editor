@@ -17,15 +17,16 @@ class ShinApp(QMainWindow):
         root = QFileInfo(__file__).absolutePath()
         self.title = "Shin Megami Tensei III Nocturne HD Save Editor"
         self.setWindowIcon(QIcon(root + '/img/icon.png'))
-        width = 675
-        height = 300
+        width = 800
+        height = 600
         qtRectangle = self.frameGeometry()
         centerPoint = QDesktopWidget().availableGeometry().center()
         qtRectangle.moveCenter(centerPoint)
         self.move(qtRectangle.topLeft())
-        self.width = width
-        self.height = height
-        self.setFixedSize(width, height)
+        #self.width = width
+        #self.height = height
+        #self.setFixedSize(width, height)
+	self.setMinimumSize(width, height)
         self.initUI()
 
     def initUI(self):

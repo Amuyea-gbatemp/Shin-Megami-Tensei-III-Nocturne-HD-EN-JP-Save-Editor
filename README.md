@@ -1,4 +1,4 @@
-# Shin Megami Tensei III Nocturne HD EN JP Save Editor
+# Shin Megami Tensei III Nocturne HD EN &amp; JP Save Editor
 Shin Megami Tensei III Nocturne HD EN &amp; JP Save Editor with Python
 Gbatemp Thread link: https://gbatemp.net/threads/shin-megami-tensei-iii-nocturne-hd-remaster-save-editor.591669/
 
@@ -20,3 +20,5 @@ Run the script
 
 It been tested on Nintendo Switch. 
 Untested on PS4 or PC SaveData.
+
+Please make multiple backups of your save data!
